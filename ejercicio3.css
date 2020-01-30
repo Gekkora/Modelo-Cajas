@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.container{
+    height: 200px;
+    width: 400px;
+}
+.inb {
+    display: inline-block;
+    width: 40%;
+}
+.inb-d{
+    display: inline-block;
+    width: 45%;
+}
+
+
+.box {
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+    border: 1px solid #808080;
+}
+
+.espana1{
+    background-color: rgb(255, 0, 0);
+    z-index: 2;
+    height: 50px;
+}
+.espana2{
+    background-color: rgb(255, 230, 0);
+    z-index: 1;
+}
+
+.espana1b{
+    background-color: rgb(255, 0, 0);
+    z-index: 3;
+    height: 50px;
+    margin-top: 100px;
+}
+.jap1 {
+    background-color: #ffffff;
+    z-index: 1;
+}
+.jap2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    z-index: 2;
+    margin: 50px 50px 50px 150px;
+}
+
+.din1 {
+    background: red;
+    z-index: 1;
+}
+
+.din2 {
+    background: #ffffff;
+    z-index: 2;
+    width: 400px;
+    height: 20px;
+    position: absolute;
+    bottom: 540px;
+    z-index: 2;
+}
+.din2h {
+    background: #ffffff;
+    z-index: 2;
+    width: 20px;
+    height: 200px;
+    margin-left: 90px;
+    z-index: 3;
+}
+
+.emih {
+    background:red;
+    z-index: 3;
+    width: 70px;
+    height: 210px;
+    margin-top: -210px;
+}
+.emi1{
+    background-color: green;
+    z-index: 2;
+    height: 70px;
+}
+.emi2{
+    background-color: #ffffff;
+    z-index: 1;
+    height: 70px;
+}
+.emi3{
+    background-color: black;
+    z-index: -1;
+    height: 70px;
+}

@@ -1,0 +1,9 @@
+.posy {
+    z-index: 2;
+    position: absolute;
+    left: 600px;
+    top: 600px;
+}
+.poso {
+    z-index: 1;
+}
